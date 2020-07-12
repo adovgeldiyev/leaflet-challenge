@@ -73,16 +73,12 @@ function createMap(earthquakes, plates) {
 
   // Define streetmap and darkmap layers
   var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}?" +
-    "access_token={accessToken}",
-    {accessToken: API_KEY});
+    "access_token=pk.eyJ1IjoiYWRvdmdlbGRpeWV2IiwiYSI6ImNrY2F1M2xobjB6Mzcyc3BmaXd4bWl4eW0ifQ.HipONCacr7noLvd6RMcPxw");
 
   var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/256/{z}/{x}/{y}?" +
-    "access_token={accessToken}",
-     {accessToken: API_KEY});
-
+    "access_token=pk.eyJ1IjoiYWRvdmdlbGRpeWV2IiwiYSI6ImNrY2F1M2xobjB6Mzcyc3BmaXd4bWl4eW0ifQ.HipONCacr7noLvd6RMcPxw");
   var satmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/256/{z}/{x}/{y}?" +
-      "access_token={accessToken}" ,
-      {accessToken: API_KEY});
+      "access_token=pk.eyJ1IjoiYWRvdmdlbGRpeWV2IiwiYSI6ImNrY2F1M2xobjB6Mzcyc3BmaXd4bWl4eW0ifQ.HipONCacr7noLvd6RMcPxw");
 
 
   // Define a baseMaps object to hold the base layers
