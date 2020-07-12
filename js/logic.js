@@ -1,5 +1,5 @@
 var queryURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-var tectonic_plates = "PB2002_plates.json";
+var tectonic_plates = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json";
 
 var markerSize = 0.0;
 
